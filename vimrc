@@ -214,6 +214,17 @@ let NERDTreeMouseMode=2
 let g:nerdtree_tabs_focus_on_files=1
 let g:nerdtree_tabs_open_on_gui_startup=0
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"中文输入法
+Bundle 'vim-scripts/VimIM'
+let g:vimim_cloud = 'google,sogou,baidu,qq'  
+let g:vimim_map = 'tab_as_gi'  
+" :let g:vimim_mode = 'dynamic'  
+" :let g:vimim_mycloud = 0  
+" :let g:vimim_plugin = 'C:/var/mobile/vim/vimfiles/plugin'  
+" :let g:vimim_punctuation = 2  
+" :let g:vimim_shuangpin = 0  
+" :let g:vimim_toggle = 'pinyin,google,sogou' 
 
 "ctrlp 
 """"""
