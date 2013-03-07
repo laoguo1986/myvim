@@ -216,7 +216,7 @@ let g:nerdtree_tabs_open_on_gui_startup=0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "中文输入法
-Bundle 'vim-scripts/VimIM'
+Bundle 'vimim/vimim'
 let g:vimim_cloud = 'google,sogou,baidu,qq'  
 let g:vimim_map = 'tab_as_gi'  
 " :let g:vimim_mode = 'dynamic'  
